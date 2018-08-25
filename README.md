@@ -1,16 +1,17 @@
 # 4-four
 
 Thanks to the wonderful mathematic explanation of Matt Parker in the
-[video](https://www.youtube.com/watch?v=LYKn0yUTIU4) where he explained that the
-number 4 is the only number that has the same number of letters as its value in
-some languages, such as DE, NL and EN.
+[video](https://www.youtube.com/watch?v=LYKn0yUTIU4) where he explained that
+the number 4 is the only number that has the same number of letters as its
+value in some languages, such as DE, NL and EN.
 
-> _"4 is is a fixed point, it doesn't go anywhere. It maps to itself."_<br/>
-> _- Matt Parker_
+> _"4 is is a fixed point, it doesn't go anywhere. It maps to itself."_<br/> _-
+> Matt Parker_
 
-Matt explained that no matter what number you would take, it would always end up
-at the number 4. So I wrote a script that uses his logic from the video in a
-function that shows the output of the sequence to test wether it is true or not.
+Matt explained that no matter what number you would take, it would always end
+up at the number 4. So I wrote a script that uses his logic from the video in a
+function that shows the output of the sequence to test wether it is true or
+not.
 
 Example run:
 
