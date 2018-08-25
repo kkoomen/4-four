@@ -5,7 +5,7 @@ Thanks to the wonderful mathematic explanation of Matt Parker in the
 number 4 is the only number that has the same number of letters as its value in
 some languages, such as DE, NL and EN.
 
-> _"4 is is a fixed point, it doesn't go anywhere. It maps to itself."_
+> _"4 is is a fixed point, it doesn't go anywhere. It maps to itself."_<br/>
 > _- Matt Parker_
 
 Matt explained that no matter what number you would take, it would always end up
