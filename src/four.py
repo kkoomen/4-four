@@ -4,14 +4,15 @@
 
 """
 Thanks to the wonderful mathematic explanation of Matt Parker in the video
-https://www.youtube.com/watch?v=LYKn0yUTIU4 where he explained that the number 4
-is the only number that has the same number of letters as its value in some
+https://www.youtube.com/watch?v=LYKn0yUTIU4 where he explained that the number
+4 is the only number that has the same number of letters as its value in some
 languages, such as DE, NL and EN. Because it is a fixed point, it doesn't go
 anywhere because it maps to itself.
 
-Matt explained that no matter what number you would take, it would always end up
-at the number 4. So I wrote a script that uses his logic from the video in a
-function that shows the output of the sequence to test wether it is true or not.
+Matt explained that no matter what number you would take, it would always end
+up at the number 4. So I wrote a script that uses his logic from the video in a
+function that shows the output of the sequence to test wether it is true or
+not.
 
 Example run:
 
@@ -34,8 +35,10 @@ import sys
 import re
 from num2words import num2words
 
+
 def format_number(n):
     return format(n, ',d').replace(',', '.')
+
 
 def main(num, lang='en'):
     n = int(num)
@@ -57,9 +60,9 @@ def main(num, lang='en'):
     print('='*30)
     print('\n')
 
+
 def usage():
-    print(
-'''
+    print('''
 Usage: ./four.py [num] [lang]
 
 For a complete list of languages, visit the docs of 'num2words':
@@ -70,8 +73,8 @@ Examples:
   ./four.py 294 nl
   ./four.py 294 de
   ./four.py 294 es
-'''
-    )
+''')
+
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
