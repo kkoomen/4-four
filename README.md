@@ -13,6 +13,9 @@ up at the number 4. So I wrote a script that uses his logic from the video in a
 function that shows the output of the sequence to test wether it is true or
 not.
 
+NOTE: Only [a-zA-Z] are taken into account when counting the characters. Any
+other character is ignored.
+
 Example run:
 
 ```
